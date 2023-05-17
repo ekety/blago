@@ -161,6 +161,10 @@ header {
     color: rgba(250, 250, 250, 0.6);
 }
 
+.menu__btn-link {
+    font-size: 14px;
+}
+
 
 .menu__item {
     list-style: none;
@@ -192,7 +196,7 @@ header {
     display: block;
     background-color: #F4A460;
     max-height: 250px;
-    height: 200px;
+    height: 160px;
 }
 
 .about .container {
@@ -203,7 +207,7 @@ header {
 
 .info {
     position: absolute;
-    bottom: 0;
+    bottom: 15%;
     display: flex;
     /*max-width: 660px;*/
     padding: 20px;
@@ -211,7 +215,7 @@ header {
 }
 
 .info__container {
-    max-width: 220px;
+    max-width: 500px;
     min-width: 220px;
 }
 
