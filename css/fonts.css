@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Quattrocento Sans";
+    font-weight: 400;
+    src: url("../fonts/Quattro/QuattrocentoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quattrocento Sans";
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/Quattro/QuattrocentoSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Quattrocento Sans";
+    font-weight: 700;
+    src: url("../fonts/Quattro/QuattrocentoSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Quattrocento Sans";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/Quattro/QuattrocentoSans-BoldItalic.ttf");
+}

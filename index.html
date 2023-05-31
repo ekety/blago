@@ -5,46 +5,60 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shourtcut icon" href="img/logoblago-edit.png">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>BLAGO</title>
 </head>
 <body>
 
+    <div class="arrow-back"></div>
     <div class="preloader">
         <div class="loader"></div>
     </div>
     <header class="header">
-        <div class="container">
-            <div class="header-top">
-            <div class="logo-inner">
-                <img src="img/logoblago.png" alt="" class="logo">
-<!--                <div class="logo-name" id="log">BLAGO</div>-->
-            </div>
+        <div class="header-top">
+            <a href="index.html" class="logo">
+                <div class="logo-img">
+                    <img src="img/logoblago-edit.png" alt="">
+                </div>
+                <div class="logo-name">
+                    <img src="img/logoblago-name.png" alt="">
+                </div>
+            </a>
             <div class="header-inner">
-                <div class="header-number">+7-938-506-50 56 Краснодар</div>
-                <div class="header-number">+7-928-333-01 69 Сочи</div>
+                <div class="header-number">
+                    <span class="header-city">Краснодар</span>
+                    <span class="header-tell">
+                        <a href="">+7-938-506-50 56</a>
+                    </span>
+                </div>
+                <div class="header-number">
+                    <span class="header-city">Сочи</span>
+                    <span class="header-tell">
+                        <a href="">+7-928-333-01 69</a>
+                    </span>
+                </div>
 
                 <div class="header-button">
                     <div class="button">заказать звонок</div>
-                    <div class="job-time">пн-сб с 9:00 до 20:00</div>
+                    <div class="schedule">
+                        <span class="work-days">пн-сб</span>
+                        <span class="work-time">с 9:00 до 20:00</span>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-
-
-
-
-
-
         <div class="header-bottom"></div>
     </header>
-
     <div class="header-menu">
         <div class="container">
             <ul class="menu list-reset">
                 <li class="menu__item">
-                    <div class="menu__btn"><a href="link/1.html" class="menu__btn-link">Ремонт и отделка под ключ</a></div>
+                    <div class="menu__btn"><a href="link/2.html" class="menu__btn-link">Ремонт и отделка под ключ</a></div>
                     <div class="dropdown">
                         <ul class="dropdown__list list-reset">
                             <li class="dropdown__item">
@@ -62,7 +76,7 @@
                 </li>
 
                 <li class="menu__item">
-                    <div class="menu__btn"><a href="link/2.html"  class="menu__btn-link">Строительство домов</a></div>
+                    <div class="menu__btn"><a href="link/3.html"  class="menu__btn-link">Строительство домов</a></div>
                     <div class="dropdown">
                         <ul class="dropdown__list list-reset">
                             <li class="dropdown__item">
@@ -81,7 +95,7 @@
                 </li>
 
                 <li class="menu__item">
-                    <div class="menu__btn"><a href="link/3.html"  class="menu__btn-link">изделия из бетона</a></div>
+                    <div class="menu__btn"><a href="link/4.html"  class="menu__btn-link">изделия из бетона</a></div>
                     <div class="dropdown">
                         <ul class="dropdown__list list-reset">
                             <li class="dropdown__item">
@@ -99,7 +113,7 @@
                 </li>
 
                 <li class="menu__item">
-                    <div class="menu__btn"><a href="link/4.html"  class="menu__btn-link">мастер на час</a></div>
+                    <div class="menu__btn"><a href="link/MFH.html"  class="menu__btn-link">мастер на час</a></div>
                     <div class="dropdown">
                         <ul class="dropdown__list list-reset">
                             <li class="dropdown__item">
@@ -115,63 +129,43 @@
                         </ul>
                     </div>
                 </li>
-
-<!--                <li class="menu__item">-->
-<!--                    <div class="menu__btn"><a href="link/5.html"  class="menu__btn-link">ремонты под ключ</a></div>-->
-<!--                    <div class="dropdown">-->
-<!--                        <ul class="dropdown__list list-reset">-->
-<!--                            <li class="dropdown__item">-->
-<!--                                <a href="#" class="dropdown__link">-->
-<!--                                    МОНТАЖ-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                            <li class="dropdown__item">-->
-<!--                                <a href="#" class="dropdown__link">-->
-<!--                                    ДЕМОНТАЖ-->
-<!--                                </a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-
             </ul>
         </div>
     </div>
-
     <selector class="about">
         <div class="container">
             <div class="info">
                 <div class="info-job info__container">
                     <div class="info-job__title">
-                        <h3>мы работаем по договору</h3>
+                        <h3>работаем по договору</h3>
                     </div>
                     <div class="info-job__text">
                     <span>
-                        Мы предоставляем гарнатию <br>
-                        качества всех вышеперечисленных работ. <br>
+                        Предоставляем гарантию качества<br>
+                        на все виды выполняемых работ<br>
                     </span>
                     </div>
                 </div>
                 <div class="info-give info__container">
                     <div class="info-job__title">
-                        <h3>мы работаем с физ. и юр. лицами</h3>
+                        <h3>работаем с физическими <br> и юридическими лицами</h3>
                     </div>
                     <div class="info-job__text">
                     <span>
-                        Принимаем б/н оплату <br>
+                        Принимаем безналичную оплату <br>
                         и оплату по терминалу <br>
                     </span>
                     </div>
                 </div>
                 <div class="info-address info__container">
                     <div class="info-job__title">
-                        <h3>мы несём ответственность за качество своего сервиса</h3>
+                        <h3>несём ответственность <br> за качество своего сервиса</h3>
                     </div>
                     <div class="info-job__text">
                     <span>
-                        Мы непрерывноулучшаем <br>
-                        профессионализм своих <br>
-                        сотрудников
+                        Непрерывно повышаем
+                        профессионализм<br>
+                        своих сотрудников
                     </span>
                     </div>
                 </div>
@@ -179,79 +173,60 @@
         </div>
     </selector>
 
-    <selector class="services">
-        <div class="container">
-            <div class="services-container">
-                <div class="services-title">
-                    <h3>Сервис "Мистер на час"</h3>
-                </div>
-                <div class="services-example">
-                <div class="services-example_img">
-                    <div class="services-example_inner">
-                        <img src="img/ServicesImg/img1.JPG" alt="">
-                        <h3 class="services-example_title">Отделка квартир</h3>
-                    </div>
-                </div>
-            </div>
+    <selector class="slider-job">
+            <div class="slider single-item">
+                <div><img src="img/ServicesImg/img1.JPG" alt=""></div>
+                <div><img src="img/ServicesImg/img2.JPG" alt=""></div>
+                <div><img src="img/ServicesImg/img1.JPG" alt=""></div>
+                <div><img src="img/ServicesImg/img2.JPG" alt=""></div>
+                <div><img src="img/ServicesImg/img1.JPG" alt=""></div>
+                <div><img src="img/ServicesImg/img2.JPG" alt=""></div>
             </div>
 
-            <div class="services-container">
-                <div class="services-title">
-                    <h3>Ремонт и отделка под ключ</h3>
-                </div>
-                <div class="services-example">
-                    <div class="services-example_img">
-                        <div class="services-example_inner">
-                            <img src="img/ServicesImg/img2.JPG" alt="">
-                            <h3 class="services-example_title">Отделка домов</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </selector>
     <footer class="footer">
+<!--        добавить ссылку на яндекс бизнесс-->
 <!--        -->
 <!--        ватсап-->
 <!--        телега-->
 <!--        эмаил-->
 <!--        вк-->
 <!--        инста-->
-
-        <div class="reviews">
-            <div class="reviews-title">
-                <a href="" class="reviews-title_link">
-                    Отзывы
-                </a>
-            </div>
-        </div>
-        <div class="photo-job">
-            <a href="" class="photo-job_link">
-                Фото работ
-            </a>
-        </div>
-        <div class="contacts">
-            <a href="" class="contacts-link">8-(938)-506-50-56</a>
-        </div>
+        <div class="copyright">@ copyright 2023</div>
         <div class="social">
             <ul class="social-container">
                 <li class="social-item">
-                    <a href="" class="social-item_link">
-                        <img src="img/social/vk.png" alt="">
+                    <a href="" class="social-item_link fa-3x social-vk">
+                        <i class="fa-brands fa-vk"></i>
                     </a>
                 </li>
-                <li class="social-item"><a href="" class="social-item_link">
-                    <img src="img/social/vk.png" alt="">
-                </a></li>
-                <li class="social-item"><a href="" class="social-item_link">
-                    <img src="img/social/vk.png" alt="">
-                </a></li>
-                <li class="social-item"><a href="" class="social-item_link">
-                    <img src="img/social/vk.png" alt="">
-                </a></li>
+                <li class="social-item">
+                    <a href="" class="social-item_link fa-3x social-whatsap">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-item_link fa-3x social-telegram">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-item_link fa-3x social-instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="" class="social-item_link fa-3x social-envelope">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
     <script src="js/script.js"></script>
     <script src="js/preloader.js"></script>
 </body>
