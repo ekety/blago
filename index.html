@@ -14,11 +14,47 @@
     <title>BLAGO</title>
 </head>
 <body>
-
-<!--<div class="arrow-back"></div> -->
     <div class="preloader">
         <div class="loader"></div>
     </div>
+
+    <div class="mobile-menu">
+        <div class="hamburger-close"></div>
+        <nav>
+            <ul class="mobile-menu__inner">
+                <li class="hamburger-menu__item">
+                    <a href="" class="hamburger-menu__link">
+                        ремонт и отделка
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="" class="hamburger-menu__link">
+                        строительство домов
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="" class="hamburger-menu__link">
+                        изделия из бетона
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="" class="hamburger-menu__link">
+                        изделия из дерева
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="" class="hamburger-menu__link">
+                        мастер на час
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <header class="header">
         <div class="header-top">
             <a href="index.html" class="logo">
@@ -30,19 +66,20 @@
                 </div>
             </a>
             <div class="header-inner">
-                <div class="header-number">
-                    <span class="header-city">Краснодар</span>
-                    <span class="header-tell">
-                        <a href="">+7-938-506-50 56</a>
-                    </span>
+                <div class="header-inner__telephone">
+                    <div class="header-number">
+                        <span class="header-city">Краснодар</span>
+                        <span class="header-tell">
+                            <a href="">+7-938-506-50 56</a>
+                        </span>
+                    </div>
+                    <div class="header-number">
+                        <span class="header-city">Сочи</span>
+                        <span class="header-tell">
+                            <a href="">+7-928-333-01 69</a>
+                        </span>
+                    </div>
                 </div>
-                <div class="header-number">
-                    <span class="header-city">Сочи</span>
-                    <span class="header-tell">
-                        <a href="">+7-928-333-01 69</a>
-                    </span>
-                </div>
-
                 <div class="header-button">
                     <div class="button">заказать звонок</div>
                     <div class="schedule">
@@ -55,7 +92,15 @@
         <div class="header-bottom"></div>
     </header>
     <div class="header-menu">
+<!--        <a href="index.html" class="arrow-back"></a>-->
         <div class="container">
+
+            <div class="hamburger-menu">
+                <span class="stick"></span>
+                <span class="stick"></span>
+                <span class="stick"></span>
+            </div>
+
             <ul class="menu list-reset">
                 <li class="menu__item">
                     <div class="menu__btn"><a href="link/2.html" class="menu__btn-link">Ремонт и отделка под ключ</a></div>
@@ -173,7 +218,8 @@
         </div>
     </selector>
 
-    <selector class="slider-job">
+    <div class="slider-content">
+        <div class="slider-job">
             <div class="slider single-item">
                 <div><img src="img/ServicesImg/img1.JPG" alt=""></div>
                 <div><img src="img/ServicesImg/img2.JPG" alt=""></div>
@@ -183,7 +229,8 @@
                 <div><img src="img/ServicesImg/img2.JPG" alt=""></div>
             </div>
 
-    </selector>
+    </div>
+    </div>
     <footer class="footer">
 <!--        добавить ссылку на яндекс бизнесс-->
 <!--        -->
