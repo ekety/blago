@@ -7,7 +7,13 @@
     color: #000;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    position: relative;
+    min-height: 100%;
     overflow-x: hidden;
 }
 
@@ -472,6 +478,11 @@ h1,h2,h3,h4,h5,h6, a, span {
 }
 
 .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
