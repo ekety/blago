@@ -78,6 +78,14 @@ body {
     opacity: 0;
     overflow: hidden;
     background-color: #D2691E;
+    transition: all 0.3s ease-in-out;
+}
+
+.active-menu {
+    opacity: 1;
+    overflow: visible;
+    left: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .mobile-menu__inner {
