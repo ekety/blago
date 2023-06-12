@@ -854,6 +854,10 @@ footer a {
     .slider img {
         height: auto;
     }
+
+    body {
+        min-height: 800px;
+    }
 }
 
 @media (max-width: 1160px) {
