@@ -16,7 +16,6 @@
     <div class="preloader">
         <div class="loader"></div>
     </div>
-
     <header class="header">
         <div class="header-top">
             <a href="../index.html" class="logo">
@@ -28,32 +27,75 @@
                 </div>
             </a>
             <div class="header-inner">
-                <div class="header-number">
-                    <span class="header-city">Краснодар</span>
-                    <span class="header-tell">
-                            <a href="">+7-938-506-50 56</a>
+                <div class="header-inner__telephone">
+                    <div class="header-number">
+                        <!--                        <span class="header-city">Краснодар</span>-->
+                        <span class="header-tell">
+                            <a href="tel:+79385065056">+7-938-506-50 56</a>
                         </span>
-                </div>
-                <div class="header-number">
-                    <span class="header-city">Сочи</span>
-                    <span class="header-tell">
-                            <a href="">+7-928-333-01 69</a>
-                        </span>
-                </div>
-
-                <div class="header-button">
-                    <div class="button">заказать звонок</div>
-                    <div class="schedule">
-                        <span class="work-days">пн-сб</span>
-                        <span class="work-time">с 9:00 до 20:00</span>
                     </div>
+                    <!--                    <div class="header-number">-->
+                    <!--                        <span class="header-city">Сочи</span>-->
+                    <!--                        <span class="header-tell">-->
+                    <!--                            <a href="tel:+79283330169">+7-928-333-01 69</a>-->
+                    <!--                        </span>-->
+                    <!--                    </div>-->
+                </div>
+                <div class="schedule">
+                    <span class="work-days">пн-сб</span>
+                    <span class="work-time">с 9:00 до 20:00</span>
                 </div>
             </div>
         </div>
         <div class="header-bottom"></div>
     </header>
+    <div class="mobile-menu">
+        <div class="hamburger-close"></div>
+        <nav>
+            <ul class="mobile-menu__inner">
+
+                <li class="hamburger-menu__item">
+                    <a href="../index.html" class="hamburger-menu__link">
+                        главная
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="../link/2.html" class="hamburger-menu__link">
+                        ремонт и отделка
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="../link/3.html" class="hamburger-menu__link">
+                        строительство домов
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="../link/4.html" class="hamburger-menu__link">
+                        нвестиции в недвижимость
+                    </a>
+                </li>
+
+                <li class="hamburger-menu__item">
+                    <a href="../link/MFH.html" class="hamburger-menu__link">
+                        мастер на час
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="header-menu">
+        <!--        <a href="index.html" class="arrow-back"></a>-->
         <div class="container">
+
+            <div class="hamburger-menu">
+                <span class="stick"></span>
+                <span class="stick"></span>
+                <span class="stick"></span>
+            </div>
+
             <ul class="menu list-reset">
                 <li class="menu__item">
                     <div class="menu__btn"><a href="../link/2.html" class="menu__btn-link">Ремонт и отделка под ключ</a></div>
@@ -93,7 +135,7 @@
                 </li>
 
                 <li class="menu__item">
-                    <div class="menu__btn"><a href="../link/4.html"  class="menu__btn-link">изделия из бетона</a></div>
+                    <div class="menu__btn"><a href="../link/4.html"  class="menu__btn-link">инвестиции в недвижимость</a></div>
                     <div class="dropdown">
                         <ul class="dropdown__list list-reset">
                             <li class="dropdown__item">
@@ -127,31 +169,9 @@
                         </ul>
                     </div>
                 </li>
-
-                <!--                <li class="menu__item">-->
-                <!--                    <div class="menu__btn"><a href="link/5.html"  class="menu__btn-link">ремонты под ключ</a></div>-->
-                <!--                    <div class="dropdown">-->
-                <!--                        <ul class="dropdown__list list-reset">-->
-                <!--                            <li class="dropdown__item">-->
-                <!--                                <a href="#" class="dropdown__link">-->
-                <!--                                    МОНТАЖ-->
-                <!--                                </a>-->
-                <!--                            </li>-->
-                <!--                            <li class="dropdown__item">-->
-                <!--                                <a href="#" class="dropdown__link">-->
-                <!--                                    ДЕМОНТАЖ-->
-                <!--                                </a>-->
-                <!--                            </li>-->
-                <!--                        </ul>-->
-                <!--                    </div>-->
-                <!--                </li>-->
-
             </ul>
         </div>
     </div>
-
-
-
     <div class="tab-btn">
         <ul>
             <li class="button-name active-btn "><span>САНТЕХНИКА</span></li>
@@ -385,14 +405,7 @@
         </div>
     </div>
 
-
     <div class="application">
-
-
-    <!--    косметический ремонт как на сайте аналоге-->
-
-    <!--    вызвать специалиста для замера - кнопка -->
-
         <div class="container">
             <div class="application__title">
                 Итого:
@@ -448,5 +461,6 @@
 
     <script src="../js/tab.js"></script>
     <script src="../js/price.js"></script>
+    <script src="../js/hamburger-menu.js"></script>
     <script src="../js/preloader.js"></script>
 </body>
