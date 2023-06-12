@@ -963,7 +963,6 @@ footer a {
     .price-box:nth-child(2) {
         margin-right: 0;
     }
-
 }
 
 @media (max-width: 900px) {
@@ -1079,6 +1078,13 @@ footer a {
 
     .works-choice__elem {
         margin-right: 0;
+    }
+
+    .footer {
+        position: relative;
+    }
+    body {
+        min-height: auto;
     }
 }
 
